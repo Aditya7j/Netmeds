@@ -1,0 +1,128 @@
+*{
+    position: relative;
+}
+.login{
+    height: 550px;
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+/* .login div{
+    border: 1px solid blue;
+} */
+.logindiv{
+    height:450px;
+    width: 1000px;
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex;
+
+}
+.logindiv1{
+    flex: 1.1;
+}
+.loginimg{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.logindiv2{
+    flex: 0.9;
+    padding: 10px;
+}
+.loginh{
+    font-size: 24px;
+    line-height: 2.5;
+    color: rgb(39, 39, 39);
+}
+.loginp{
+    font-size: 13px;
+    color: gray;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+.loginb{
+    font-size: 10px;
+    color: #24AEB1;
+}
+.inputdivlogin{
+    width: 85%;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 20px;
+}
+.loginspan{
+    font-weight: 600;
+    font-size: 17px;
+    margin-right: 8px;
+}
+.logininput{
+    width: 150px;
+    border: none;
+    padding: 8px;
+    border-left: 1px solid gray;
+}
+.logininput:focus{
+    outline: none;
+    
+}
+.logininput[type="number"]{
+    width: 70%;
+    font-size: 15px;
+    padding: 5px;
+    outline: none;
+    -moz-appearance: textfield;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin:0;
+}
+
+.loginbtn{
+    width: 90%;
+    padding: 12px;
+    background-color: #24AEB1;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 60px;
+}
+.logoimfdiv{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logoimfdiv div{
+    flex: 0.3;
+    height: 40px;
+    border: 1px solid rgb(157, 156, 156);
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+}
+.googlelogo{
+    width:30px;
+    height:30px;
+    object-fit: cover; 
+    margin-right: 10px;
+}
+.googletitle{
+    font-size: 14px;
+    color: gray;
+}
+.byp{
+    text-align: center;
+    font-size: 10px;
+    margin-bottom: 20px;
+}
+.bb{
+    color: crimson;
+}

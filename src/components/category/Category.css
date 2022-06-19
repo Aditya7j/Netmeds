@@ -1,0 +1,40 @@
+.category{
+    display: flex;
+    height: 280px;
+    gap: 15px;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-bottom: 3%;
+}
+
+.category div {
+    height: 270px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: #fff;
+    cursor: pointer;
+}
+.cat1{
+    flex: 1; 
+}
+.cat2{
+    flex: 1;
+}
+.cat3{
+    flex: 1;
+}
+.cat4{
+    flex: 1;
+}
+.cat5{
+    flex: 1;
+}
+.catimg{
+    width: 100%;
+    height: 80%;
+    object-fit: contain;
+}
+.catp{
+    text-align: center;
+    font-weight: bold;
+    line-height: 2;
+}

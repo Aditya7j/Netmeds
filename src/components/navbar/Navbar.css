@@ -1,0 +1,165 @@
+.navbar{
+    height: 140px;
+    background-color: #24AEB1;
+    padding-top: 20px;
+    /* padding-left: 10%;
+    padding-right: 10%; */
+    /* border: 1px solid red; */
+    position: relative;
+}
+.navbarwrapper{
+    display: flex;
+    flex-wrap: wrap;
+    height: 60px;
+    gap: 10px;
+    margin-left: 35px;
+    
+}
+.cu{
+    color: #fff;
+    text-decoration: none;
+}
+.navbarleft{
+    flex: 0.4;
+}
+.navbarleftimg{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+   
+}
+.navbarcentre{
+    flex: 1.5;
+}
+.srch{
+    color: gray;
+}
+.searchbar{
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    margin: 2px;
+}
+.searchinput{
+    width: 70%;
+    border: none;
+    border-left: 1px solid gray;
+    margin: 5px;
+}
+.searchspan{
+    font-size: 12px;
+    margin: 5px;
+}
+.searchb{
+    color: #24AEB1;
+    font-size: 14px;
+}
+.searchinput:focus{
+    outline: none;
+}
+
+.navbarright{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #fff;
+}
+.navbarrightspan{
+    font-size: 12px;
+}
+
+
+.rightItems{
+    display: flex;
+    font-size: 15px;
+}
+
+.righticons{
+    margin-right: 15px;
+    cursor: pointer;
+    position: relative;
+    font-size: 15px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.middlecont{
+    width: 100%;
+    height: 50px;
+    
+   
+}
+.middleitems{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 15px;
+    
+}
+.middleicons{
+    height: 50px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.middlespan{
+    color: #fff;
+    font-size: 14px;
+    margin: 5px;
+    vertical-align: middle;
+    font-weight: bold;
+}
+.medicons{ 
+    border-radius: 50%;
+    font-size: 14px;
+    background-color: blue;
+    color: #fff;
+    height: 35px;
+    /* border: 1px solid black; */
+}
+
+.oilicons{
+    border-radius: 50%;
+    font-size: 24px;
+    background-color: pink;
+    color: #fff;
+    height: 35px;
+}
+
+.kiticons{
+    border-radius: 50%;
+    font-size: 24px;
+    background-color: green;
+    color: #fff;
+    height: 35px;
+}
+
+.inboxicons{
+    border-radius: 50%;
+    font-size: 24px;
+    background-color: orange;
+    color: #fff;
+    height: 35px;
+}
+
+.ilsicons{
+    border-radius: 50%;
+    font-size: 24px;
+    background-color: blue;
+    color: #fff;
+    height: 35px;
+}
+

@@ -1,0 +1,267 @@
+.cart{
+    height: 600px;
+    display: flex;
+    padding: 0%;
+    margin-left: 15%;
+    gap: 15px;
+}
+/* .cart div{
+    border: 1px solid blue;
+} */
+
+.cartitems1{
+    width: 60%;
+    padding: 10px;
+}
+.carth{
+    margin-left: 15px;
+    line-height: 2;
+    font-weight: 400;
+}
+.cartp{
+    margin-left: 15px;
+}
+
+.slide{
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+}
+.slideimg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.cartquandiv{
+    height: 400px;
+    margin: 5px;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.cartqun{
+    height: 150px;
+    margin: 5px;
+    background-color: #fff;
+    display: flex;
+    border-bottom: 1px solid lightgray;
+}
+.cartqun1{
+    flex: 0.1;
+}
+.cartqun2{
+    flex: 1;
+    padding: 5px;
+}
+.cartqun3{
+    flex: 1;
+    padding: 5px;
+}
+.cartqunimg{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    object-fit: cover;
+}
+
+.cartanti{
+    font-size: 15px;
+    line-height: 1;
+    font-weight: 500;
+}
+.cartmfr{
+    font-size: 13px;
+    color: gray;
+    font-weight: 300;
+}
+
+.cartprice{
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 3;
+    color: crimson;
+}
+.cartprice1{
+    margin-left: 7px;
+    font-size: 12px;
+    color: gray;
+    text-decoration: line-through;
+}
+.cartdel{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 5;
+    color: gray;
+}
+.cartselect{
+    width: 50px;
+    padding: 5px;
+    border: none;
+
+}
+.cartselect:focus{
+    outline: none;
+}
+
+.qytdiv{
+    width: 30%;
+    border: 1px solid lightgray;
+    margin-left: 55%;
+    margin-top: 10%;
+}
+.qyt{
+    font-size: 14px;
+    color: gray;
+    margin-left: 2px;
+}
+.cartremovebtn{
+    width: 80px;
+    padding: 8px;
+    background-color: #F6F6F7;
+    border: none;
+    font-weight: 500;
+    margin-left: 90px;
+}
+.cartsavebtn{
+    width: 130px;
+    padding: 8px;
+    background-color: #F6F6F7;
+    border: none;
+    margin: 5px;
+    font-weight: 500;
+}
+
+.moreb{
+    margin-left: 15px;
+    font-size: 12px;
+    color: #24AEB1;
+}
+
+.cartitems2{
+    flex: 0.7;
+    padding: 5px;
+    margin-top: 46px;
+    
+}
+.cartitems2 div{
+    margin: 5px;
+    border-radius: 10px;
+}
+.coupondiv{
+    height: 130px;
+    background-color: #fff;
+    padding: 5px;
+}
+.billdiv{
+    height: 230px;
+    background-color: #fff;
+    padding: 5px;
+}
+.coup{
+    font-size: 13px;
+    color: gray;
+    font-weight: 500;
+    line-height: 2;
+    margin-left: 5px;
+}
+.rad{
+    width: 30px;
+}
+
+.coupspan{
+    font-size: 16px;
+    color: gray;
+    font-weight: 600;
+    line-height: 3;
+}
+.coupp{
+    font-size: 12px;
+    margin-left: 30px;
+    color: lightgray;
+    font-weight: 600;
+}
+.payp{
+    font-size: 12px;
+    font-weight: 600;
+    color: gray;
+    line-height: 2;
+}
+
+.netb{
+    font-size: 13px;
+    font-weight: 500;
+    color: gray;
+    line-height: 2;
+}
+.totp{
+    font-size: 13px;
+}
+.payspan{
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.white{
+    color: #fff;
+}
+
+.totalbtn{
+    width: 95%;
+    border: none;
+    padding: 8px;
+    margin-top: 15px;
+    color: green;
+    text-align: left;
+    font-size: 13px;
+    font-weight: 500;
+    background-color: #F6F6F7;
+}
+.amop{
+    font-size: 12px;
+    margin-top: 15px;
+    color: gray;
+    font-weight: 500;    
+}
+.ppop{
+    font-size: 17px;
+    font-weight: 700;
+}
+.proceedp{
+    width: 140px;
+    padding: 12px;
+    border: none;
+    background-color: #24AEB1;
+    color: #fff;
+    margin-left: 75px;
+    margin-bottom: 20px;
+    border-radius: 7px;
+    font-weight: 600;
+}
+.isp{
+    padding: 7px;
+    font-size: 10px;
+    color: gray;
+    font-family: cursive;
+}
+.terms{
+    color: #24AEB1;
+}
+.cartslider{
+    width: 50.5%;
+    height: 300px;
+    margin-bottom: 20px;
+    margin-left: 16%;
+    border-radius: 5px;
+}
+input:where([type="radio"]){
+    
+    width              : 14px;
+    height             : 14px;
+    border             : 2px solid crimson;
+    border-radius      : 4px;
+    fill-rule: evenodd;
+    fill: rgb(255, 111, 97);
+    accent-color: crimson;
+  }

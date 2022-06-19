@@ -1,0 +1,6 @@
+.healthimg{
+    width: 100%;
+    height: 40%;
+    object-fit: contain;
+    margin-top: 30px;
+}

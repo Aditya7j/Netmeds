@@ -1,0 +1,32 @@
+.explore1{
+    height: 150px;
+    margin-bottom: 2%;
+    background-color: #8A9095;
+    color: #fff;
+    padding: 5px;
+}
+.explore1wrapper{
+   display: flex;
+   height: 270px;
+   gap: 15px;
+   margin-top: 20px;
+   padding-right: 3%;
+   padding-left: 3%;
+}
+.explore1wrapper div{
+    flex: 1;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
+    border-radius: 7px;
+}
+
+.explore1img{
+    width: 100%;
+    height: 80%;
+    object-fit: contain;
+}
+.explore1p{
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}

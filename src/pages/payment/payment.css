@@ -1,0 +1,183 @@
+.payment{
+    height: 100vh;
+    width: 100vw;
+}
+.paynavbar{
+    height: 100px;
+    background-color: #24AEB1;
+}
+.payimg{
+    width: 20%;
+    height: 60%;
+    margin-top: 25px;
+    margin-left: 45px;
+    
+}
+.paymiddlediv{
+    height: 500px;
+}
+.payorder{
+    height: 60px;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 2%;
+    display: flex;
+    border-radius: 7px;
+    background-color: #151B39;
+}
+.payordderh{
+    margin: 15px;
+    color: white;
+}
+.logocontdiv{
+    width: 78%;
+    display: flex;
+    gap: 15px;
+    text-align: center;
+    align-items: flex-end;
+    justify-content: end;
+    color: #fff;
+    
+}
+
+.paymentp{
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+.bbbu{
+    margin-bottom: 25px;
+    color: #fff;
+    font-weight: 900;
+}
+.catout{
+    border-radius: 50%;
+    background-color:#2D324D;
+    font-size: 14px;
+}
+
+.paymentprod{
+    height: 350px;
+    width: 60%;   
+    margin: 20px;
+    margin-left: 20%;
+    border-radius: 7px;
+    background-color: #fff;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.paydivmain{
+    height: 120px;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    padding: 10px;
+}
+
+.paymentprodimg{
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    margin: 15px;
+}
+
+.del{
+    padding: 7px;
+    color: gray;
+    font-size: 13px;
+}
+.date{
+    padding: 7px;
+    font-size: 15px;
+}
+
+.payitem1{
+    flex: 0.2;
+    height: 120px;
+
+}
+.payitem2{
+    flex: 1;
+    height: 120px;
+
+}
+
+.payitem3{
+    flex: 1;
+    height: 120px;
+    text-align: end;
+    margin-right: 15px;
+}
+
+.paytitlle{
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(36, 36, 36);
+    margin: 5px;
+    line-height: 1;
+    margin-bottom: 10px;
+}
+
+.payitemp1{
+    margin: 5px;
+    font-size: 10px;
+    color: rgb(98, 98, 98);
+    font-weight: 400;
+}
+.payitemp2{
+    font-size: 10px;
+    font-weight: 600;
+    margin: 5px;
+}
+.payitemh{
+    font-size: 18px;
+    color: crimson;
+    font-weight: 700;
+    margin: 5px;
+    margin-top: 15px;
+    line-height: 1.5;
+}
+
+.payitem1p{
+    font-size: 12px;
+    color: gray;
+    text-decoration: line-through;
+    margin: 5px;
+    margin-bottom: 15px;
+}
+.payitem2p{
+    margin: 5px;
+    color: gray;
+    font-weight: 500;
+    font-size: 18px;
+}
+.paybbc{
+    font-size: 18px;
+    font-weight: 800;
+    color: black;
+}
+
+.bone{
+    height: 150px;
+    width: 40%;
+    margin-bottom: 15px;
+    margin-left: 20%;
+    padding: 7px;
+    color: gray;
+    background-color: #fff;
+}
+textarea{
+    width: 450px;
+    height: 100px;
+    border: 1px solid gray;
+    font-weight: 600;
+    border-radius: 5px;
+}
+textarea:focus{
+    outline: none;
+}
+
+.payitemms2{
+    width: 25%;
+    margin-left: 20%;
+    padding: 7px;
+}

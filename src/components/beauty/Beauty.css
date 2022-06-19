@@ -1,0 +1,161 @@
+.beauty{
+    height: 70px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+
+}
+
+.beauty div{
+    border-radius: 7px;
+    height: 60px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.beautyleft{
+    flex: 1;
+    cursor: pointer;
+}
+.beautycenter{
+    flex: 1;
+}
+.beautyright{
+    flex: 1;
+}
+
+.beautyimgcont{
+    display: flex;
+}
+.beautyspan{
+    margin: 10px;
+    font-weight: 600;
+    font-size: 18px;
+}
+.beautyp{
+    font-weight: 500;
+    color: green;
+    font-size: 14px;
+}
+
+.letterdiv{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 3%;
+}
+
+.letter1 h1{
+    font-weight: 600;
+}
+.letter2 b{
+    color: crimson;
+    font-size: 15px;
+}
+
+.logodiv{
+    height: 80px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+    
+}
+.logodiv div {
+    height: 70px;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.logoitems1{
+    flex: 1;
+}
+.logoitems2{
+    flex: 1;
+}
+.logoitems3{
+    flex: 1;
+}
+
+.logoimgcont{
+    display: flex;
+}
+.logoimg{
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+}
+.logospan{
+    font-size: 12px;
+    margin: 10px;
+    font-weight: bold;
+}
+.logob{
+    font-size: 10px;
+    color: gray;
+    font-weight: 400;
+}
+
+.prevdiv{
+    height: 150px;
+    display: flex;
+    padding: 5px;
+    gap: 5px;
+}
+.prevdiv div{
+    height: 140px;
+}
+.prevdiv1{
+    flex: 1;
+    display: flex;
+    border-right: 1px solid rgb(165, 160, 160);
+}
+.prevdiv1 div{
+    cursor: pointer;
+    height: 130px;
+
+}
+.previtems{
+    flex: 1;
+    padding: 5px;
+}
+.previtemsh{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 2;
+}
+.previtemsp{
+    font-size: 18px;
+    color: gray;
+    font-weight: 500;
+}
+.previtemsb{
+    color: #24AEB1;
+    font-size: 16px;
+}
+.previtems1{
+    flex: 1;
+    padding: 5px;
+    text-align: end;
+}
+.prevdiv2{
+    flex: 1;
+    display: flex;
+}
+.previtemspp{
+    font-size: 17px;
+    color: green;
+}
+.prevbtn{
+    width: 130px;
+    padding: 7px;
+    background-color: #24AEB1;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}

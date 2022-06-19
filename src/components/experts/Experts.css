@@ -1,0 +1,34 @@
+.expert{
+    height: 150px;
+    margin-bottom: 2%;
+    background-color: #EF4281;
+    color: #fff;
+    padding: 5px;
+}
+.expertwrapper{
+   display: flex;
+   height: 270px;
+   gap: 15px;
+   padding-right: 3%;
+   padding-left: 3%;
+   margin-bottom: 25%;
+
+}
+.explorewrapper div{
+    flex: 1;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
+    border-radius: 7px;
+}
+
+.exploreimg{
+    width: 100%;
+    height: 80%;
+    object-fit: contain;
+}
+.expertp{
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    font-size: 15px;
+}
