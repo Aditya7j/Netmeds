@@ -1,7 +1,6 @@
 <h1>Netmeds-PROJECT</h1>
 <p>Netmeds-India's pharmacy website</p>
-<img width="1500" src="https://user-images.githubusercontent.com/89588001/181035006-e5d53e3f-710d-46f4-a9a5-1e0ab59595e3.png" alt="">
-<img width="1500" src="https://user-images.githubusercontent.com/89588001/181036322-6515af5b-3ffb-4017-9614-391d624fe105.png" alt="">
+<img width="1500" src="https://user-images.githubusercontent.com/89588001/181063413-5d371b80-eb1d-4867-a589-b58bf1966794.png" alt="">
 <h1>WELCOME ✨</h1>
 <p>About Netmeds</p>
 <p>Netmeds is an Indian healthcare e-commerce startup founded by Pradeep Dadha in 2010..</p>
